@@ -14,9 +14,9 @@ var _propTypes = require('prop-types');
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _cropperjs = require('cropperjs');
+var _Cropper = require('./Cropper');
 
-var _cropperjs2 = _interopRequireDefault(_cropperjs);
+var _Cropper2 = _interopRequireDefault(_Cropper);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -116,7 +116,7 @@ var ReactCropperJS = function (_Component) {
         }
       }
 
-      this.cropper = new _cropperjs2.default(this.refs.img, options);
+      this.cropper = new _Cropper2.default(this.refs.img, options);
     }
   }, {
     key: 'componentWillReceiveProps',

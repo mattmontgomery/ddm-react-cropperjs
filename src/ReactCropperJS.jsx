@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import Cropper from 'cropperjs';
+import Cropper from './Cropper';
 
 class ReactCropperJS extends Component {
   static propTypes = {
